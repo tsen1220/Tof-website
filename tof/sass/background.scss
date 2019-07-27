@@ -1,8 +1,14 @@
 body{
-    background-image:url('./background/castle_summer-512.min.png');
+    background-image:url('./background/castle-adiart-512.png');
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover; 
     display: flex;
 
 };
+
+#wrapper{
+    background: #000000;
+    width: 700px;;
+    height: 500px;
+}
