@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap");
+#container {
+  width: 1520px;
+  height: 80px;
+  background-color: #956B57;
+  opacity: 0.8;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  position: fixed;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-attachment: fixed;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+#dropdown {
+  text-align: center;
+  font-family: 'Noto Serif TC', serif;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  color: #E0AEAE;
+  border-radius: 20px;
+}
+
+#dropdown li {
+  font-size: 30px;
+  margin: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  float: left;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 0px;
+  border-right: 1px solid rgba(0, 0, 0, 0.45);
+  border-left: 1px solid rgba(0, 0, 0, 0.45);
+  cursor: pointer;
+  background: #956B57;
+  width: 160px;
+  border-radius: 20px;
+}
+
+#dropdown ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 5px;
+  position: absolute;
+  left: auto;
+  width: 160px;
+}
+
+#dropdown a {
+  display: block;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  text-decoration: none;
+  border-radius: 20px;
+  color: #E0AEAE;
+}
+
+.active {
+  background: #2424A7;
+}
+/*# sourceMappingURL=dropdownbg.css.map */
