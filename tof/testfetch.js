@@ -1,4 +1,5 @@
-function getdata(){
+function getdata(index){
+
 
 fetch('./tof/BlueDragon.json')
 .then(function(response){
@@ -14,7 +15,7 @@ const BDDATA= hh =>{
     let aaaHTML=``;
     hh.forEach(classs => {
         console.log(classs)
-        if(classs.classname =="賢王(The Good King)"){
+        if(classs.index == index){
             aaaHTML=`<div>職業名稱:${classs.classname}</div><br/>`+
             `<div>職業類別:${classs.classtype}</div><br/>`+
             `<div>轉化後職業:${classs.convertclass}</div><br/>`+
