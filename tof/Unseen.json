@@ -453,7 +453,7 @@
        },
        {
        "n2":"宮廷間諜(spy)",
-       "n2description":"隔天可以看到別人的密語",
+       "n2description":"隔天可以看到別人的密語。",
        "n2times":"使用次數:2次",
        "n2img":"./tof/sass/classpicture/BD/noble/n2.png"
        }
@@ -544,9 +544,9 @@
        "n1img":"./tof/sass/classpicture/UNSEEN/mm/n1.png"
        },
        {
-       "n2":"重擊(smite)",
-       "n2description":"若有邪教想要轉化你或你的目標，殺死他。第三晚才可以使用",
-       "n2times":"使用次數:2次",
+       "n2":"遠見",
+       "n2description":"可以知道目標轉化後的職業類別以及是否能被轉化。",
+       "n2times":"使用次數:無限",
        "n2img":"./tof/sass/classpicture/UNSEEN/mm/n2.png"
        }
     ]
