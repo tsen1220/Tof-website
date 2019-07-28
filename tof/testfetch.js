@@ -1,7 +1,7 @@
-function getdata(index){
+function getdata(faction,index){
 
 
-fetch('./tof/BlueDragon.json')
+fetch('./tof/'+faction+'.json')
 .then(function(response){
     return response.json();
 })
