@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,SAAS,EAAC,GAAG;EACb,QAAQ,EAAC,QAAQ;EACjB,GAAG,EAAE,GAAG;EACR,IAAI,EAAC,GAAG;EACR,OAAO,EAAC,GAAG;EACX,OAAO,EAAC,CAAC;CACV",
-    "sources": [
-        "BDanime.scss"
-    ],
-    "names": [],
-    "file": "BDanime.css"
-}
