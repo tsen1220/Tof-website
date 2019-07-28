@@ -1,8 +1,6 @@
-
 function getdata(){
-$('#load').hide();
 
-fetch('./BlueDragon.json')
+fetch('./tof/BlueDragon.json')
 .then(function(response){
     return response.json();
 })
@@ -12,8 +10,6 @@ fetch('./BlueDragon.json')
     BDDATA(hh);
   
 })
-  
-
 const BDDATA= hh =>{
     let aaaHTML=``;
     hh.forEach(classs => {
