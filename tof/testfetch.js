@@ -18,7 +18,7 @@ const BDDATA= hh =>{
         if(classs.index == index){
             aaaHTML=`<div>職業名稱:${classs.classname}</div><br/>`+
             `<div>職業類別:${classs.classtype}</div><br/>`+
-            `<div>轉化後職業:${classs.convertclass}</div><br/>`+
+            `<div>轉化後(前)職業:${classs.convertclass}</div><br/>`+
             `<div class='posit'>`+
             `<div class='contain'><b>被動</b></div>`+
             `<div><b><img src="${classs.passive[0].p1img}">${classs.passive[0].p1}</b></div>`+
