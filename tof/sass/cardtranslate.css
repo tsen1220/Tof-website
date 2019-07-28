@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=cardtranslate.css.map */
+.contain {
+  background-color: #E65610;
+  width: 358px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 50px;
+  border-radius: 20px;
+}
+
+.posit {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+}
+/*# sourceMappingURL=cardtranslate.css.map */
