@@ -9,9 +9,44 @@
     border-radius: 20px;
 }
 
+.position{
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    font-size:20px;
+    width:400px;
+    height: 230px;
+    display: block;
+    border:2px solid #000000;
+    background:#D3A445;
+    border-radius: 10px;
+}
+
 
 .posit{
     position: absolute;
-    left:50%;
-    top:5%;
+    right:600px;
+    top:0px;
+    width:400px;
+    height: 400px;
+    display: block;
 }
+
+.dposition{
+    position: absolute;
+    right:100px;
+    top:0px;
+    width:400px;
+    height: 400px;
+    display: block;
+}
+
+.nposition{
+    position: absolute;
+    right:600px;
+    top:400px;
+    width:400px;
+    height: 400px;
+    display: block;
+}
+

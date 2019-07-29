@@ -7,6 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
 <script src="./tof/js/dropdown.js"></script>
 <link rel="stylesheet" href="./tof/sass/dropdownbg.css" type="text/css">
+<script src="./tof/testfetch.js"></script>
+<link rel="stylesheet" href="./tof/sass/cardtranslate.css" type="text/css">
 </head>
 
 
@@ -51,15 +53,15 @@
        
   <div id="title"><img src="./tof/sass/classpicture/Cult.png">邪教職業</div>
  <div id="show">
-   <img id="king"  src="./tof/sass/classpicture/CULT/Portraitcard_cult_cultking.png" alt="" width="184px" height="244px" >
-   <img id="apostle" src="./tof/sass/classpicture/CULT/Portraitcard_cult_apostle.png" alt=""width="184px" height="244px" >
-   <img id="cl" src="./tof/sass/classpicture/CULT/Portraitcard_cult_cultleader.png" alt="" width="184px" height="244px">
-   <img id="invoker" src="./tof/sass/classpicture/CULT/Portraitcard_cult_invoker.png" alt="" width="184px" height="244px">
-   <img id="ritualist" src="./tof/sass/classpicture/CULT/Portraitcard_cult_ritualist.png" alt="" width="184px" height="244px">
-   <img id="seeker" src="./tof/sass/classpicture/CULT/Portraitcard_cult_seeker.png" alt="" width="184px" height="244px">
+   <img id="bd1"  src="./tof/sass/classpicture/CULT/Portraitcard_cult_cultking.png" alt="" width="184px" height="244px" onclick="getdata('Cult',1);hide(1)">
+   <img id="bd2" src="./tof/sass/classpicture/CULT/Portraitcard_cult_apostle.png" alt=""width="184px" height="244px" onclick="getdata('Cult',5);hide(2)">
+   <img id="bd3" src="./tof/sass/classpicture/CULT/Portraitcard_cult_cultleader.png" alt="" width="184px" height="244px" onclick="getdata('Cult',4);hide(3)">
+   <img id="bd4" src="./tof/sass/classpicture/CULT/Portraitcard_cult_invoker.png" alt="" width="184px" height="244px" onclick="getdata('Cult',6);hide(4)">
+   <img id="bd5" src="./tof/sass/classpicture/CULT/Portraitcard_cult_ritualist.png" alt="" width="184px" height="244px" onclick="getdata('Cult',3);hide(5)">
+   <img id="bd6" src="./tof/sass/classpicture/CULT/Portraitcard_cult_seeker.png" alt="" width="184px" height="244px" onclick="getdata('Cult',2);hide(6)">
 
  </div>
-
+ <div id="description"></div>
 <div id="footer">© 2019 Made By Tzu-En ,who like this game.</div>
 
 </div>

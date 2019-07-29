@@ -2,11 +2,13 @@
 <html>
     <meta charset="UTF-8">
 <head>
-<link rel="stylesheet" href="./tof/sass/BDclass.css">
+<link rel="stylesheet" href="./tof/sass/BDclass.css" type="text/css">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
 <script src="./tof/js/dropdown.js"></script>
 <link rel="stylesheet" href="./tof/sass/dropdownbg.css" type="text/css">
+<script src="./tof/testfetch.js"></script>
+<link rel="stylesheet" href="./tof/sass/cardtranslate.css" type="text/css">
 </head>
 
 
@@ -48,27 +50,28 @@
 </div>
 
 <div id='textcontainer'>
-       
+
   <div id="title"><img src="./tof/sass/classpicture/BlueDragon.png">藍龍職業</div>
  <div id="show">
-   <img id="king"  src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_goodking.png" alt="" width="184px" height="244px" >
-   <img id="knight" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_knight.png" alt=""width="184px" height="244px" >
-   <img id="maid" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_maid.min.png" alt="" width="184px" height="244px">
-   <img id="noble" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_noble.png" alt="" width="184px" height="244px">
-   <img id="obs" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_observer.png" alt="" width="184px" height="244px">
-   <img id="pally" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_paladin.png" alt="" width="184px" height="244px">
-   <img id="phys" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_physician.png" alt=""width="184px" height="244px" >
-   <img id="prince" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_prince.png" alt="" width="184px" height="244px">
-   <img id="princess" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_princess.png" alt="" width="184px" height="244px">
-   <img id="mystic" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_psychic.png" alt="" width="184px" height="244px">
-   <img id="sheriff" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_sheriff.png" alt="" width="184px" height="244px">
-   <img id="hunter" src="./tof/sass/classpicture/BD/image.png" alt="" width="184px" height="244px">
-   <img id="chrono" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_chronomancer.png" alt="" width="184px" height="244px">
-   <img id="bulter" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_butler.png" alt=""width="184px" height="244px" >
-   <img id="drunk" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_drunk.png" alt=""width="184px" height="244px" >
-   <img id="cw" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_courtwizard.png" alt="" width="184px" height="244px">
+   <img id="bd1"  src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_goodking.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',1);hide(1)">
+   <img id="bd2" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_knight.png" alt=""width="184px" height="244px" onclick="getdata('BlueDragon',2);hide(2)">
+   <img id="bd3" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_maid.min.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',8);hide(3)">
+   <img id="bd4" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_noble.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',10);hide(4)">
+   <img id="bd5" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_observer.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',11);hide(5)">
+   <img id="bd6" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_paladin.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',12);hide(6)">
+   <img id="bd7" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_physician.png" alt=""width="184px" height="244px"  onclick="getdata('BlueDragon',13);hide(7)">
+   <img id="bd8" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_prince.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',14);hide(8)">
+   <img id="bd9" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_princess.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',15);hide(9)">
+   <img id="bd10" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_psychic.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',9);hide(10)">
+   <img id="bd11" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_sheriff.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',16);hide(11)">
+   <img id="bd12" src="./tof/sass/classpicture/BD/image.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',7);hide(12)">
+   <img id="bd13" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_chronomancer.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',4);hide(13)">
+   <img id="bd14" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_butler.png" alt=""width="184px" height="244px" onclick="getdata('BlueDragon',3);hide(14)">
+   <img id="bd15" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_drunk.png" alt=""width="184px" height="244px" onclick="getdata('BlueDragon',6);hide(15)">
+   <img id="bd16" src="./tof/sass/classpicture/BD/Portraitcard_bluedragon_courtwizard.png" alt="" width="184px" height="244px" onclick="getdata('BlueDragon',5);hide(16)">
+   
  </div>
-
+ <div id="description"></div>
 <div id="footer">© 2019 Made By Tzu-En ,who like this game.</div>
 
 </div>

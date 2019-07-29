@@ -17,23 +17,29 @@ const BDDATA= hh =>{
     hh.forEach(classs => {
         console.log(classs)
         if(classs.index == index){
-            aaaHTML=`<div>職業名稱:${classs.classname}</div><br/>`+
+            aaaHTML=`<div class="position">`+
+            `<div>職業名稱:${classs.classname}</div><br/>`+
             `<div>職業類別:${classs.classtype}</div><br/>`+
             `<div>轉化後(前)職業(類別):${classs.convertclass}</div><br/>`+
             `<div>勝利條件:${classs.victory}</div><br/>`+
+            `</div>`+
             `<div class='posit'>`+
             `<div class='contain'><b>被動</b></div>`+
             `<div><b><img src="${classs.passive[0].p1img}">${classs.passive[0].p1}</b></div>`+
             `<div>${classs.passive[0].p1description}</div><br/>`+
             `<div><b><img src="${classs.passive[1].p2img}">${classs.passive[1].p2}</b></div><br/>`+
             `<div>${classs.passive[1].p2description}</div><br/>`+
+            `</div>`+
+            `<div class='dposition'>`+
             `<div class='contain'><b>白天技能</b></div>`+
             `<div><img src="${classs.day[0].d1img}">${classs.day[0].d1}</div><br/>`+
             `<div>${classs.day[0].d1description}</div><br/>`+
             `<div>${classs.day[0].d1times}</div><br/>`+
             `<div><b><img src="${classs.day[1].d2img}">${classs.day[1].d2}</b></div><br/>`+
             `<div>${classs.day[1].d2description}</div><br/>`+
-            `<div>${classs.day[1].d2times}</div><br/>`           +
+            `<div>${classs.day[1].d2times}</div><br/>`+
+            `</div>`+
+            `<div class="nposition">`+
             `<div class='contain'><b>晚上技能</b></div>` +
             `<div><b><img src="${classs.night[0].n1img}">${classs.night[0].n1}</b></div><br/>`+
             `<div>${classs.night[0].n1description}</div><br/>`+
@@ -54,8 +60,10 @@ const BDDATA= hh =>{
 function hide(num){
     for(var i=1;i<17;i++){
         if(i==num ){
+            document.getElementById("bd"+i).style.width="362px";
+            document.getElementById("bd"+i).style.height="486px";
             continue
         }
-     document.getElementById('bd'+i).style.display="none";
+     document.getElementById("bd"+i).style.display="none";
     }
 }

@@ -518,7 +518,7 @@
     
     },{
        "index":"12",
-       "classname":"瘋王(The Psycho King) 初始無這個王，只有中立殺手被票選為王時這職業才會出現。",
+       "classname":"瘋王(The Psycho King) 中立殺手被票選為王時這職業才會出現。",
        "classtype":"Special",
        "convertclass":"None",
        "victory":"擊敗所有藍龍及壞人方。",

@@ -7,6 +7,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
 <script src="./tof/js/dropdown.js"></script>
 <link rel="stylesheet" href="./tof/sass/dropdownbg.css" type="text/css">
+<script src="./tof/testfetch.js"></script>
+<link rel="stylesheet" href="./tof/sass/cardtranslate.css" type="text/css">
 </head>
 
 
@@ -51,20 +53,20 @@
        
   <div id="title"><img src="./tof/sass/classpicture/Neutral.png">中立職業</div>
  <div id="show">
-   <img id="king"  src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_neutralking.png" alt="" width="184px" height="244" >
-   <img id="poss" src="./tof/sass/classpicture/Neutral/NK/Portraitcard_neutral_possessor.png" alt=""width="184px" height="244" >
-   <img id="reaper" src="./tof/sass/classpicture/Neutral/NK/Portraitcard_neutral_reaper.png" alt="" width="184px" height="244">
-   <img id="sorcer" src="./tof/sass/classpicture/Neutral/NK/Portraitcard_neutral_sorcerer.png" alt="" width="184px" height="244">
-   <img id="pk" src="./tof/sass/classpicture/Neutral/NK/image.png" alt="" width="184px" height="244">
-   <img id="pretender" src="./tof/sass/classpicture/Neutral/Portraitcard_bluedragon_pretender.min.png" alt="" width="184px" height="244">
-   <img id="inq" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_Inquisitor.png" alt=""width="184px" height="244" >
-   <img id="alch" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_alchemist.png" alt="" width="184px" height="244">
-   <img id="fool" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_fool.png" alt="" width="184px" height="244">
-   <img id="merc" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_mercenary.png" alt="" width="184px" height="244">
-   <img id="scorned" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_scorned.png" alt="" width="184px" height="244">
-   <img id="ss" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_sellsword.png" alt="" width="184px" height="244">
+   <img id="bd1"  src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_neutralking.png" alt="" width="184px" height="244" onclick="getdata('Neutral',1);hide(1)">
+   <img id="bd2" src="./tof/sass/classpicture/Neutral/NK/Portraitcard_neutral_possessor.png" alt=""width="184px" height="244" onclick="getdata('Neutral',6);hide(2)">
+   <img id="bd3" src="./tof/sass/classpicture/Neutral/NK/Portraitcard_neutral_reaper.png" alt="" width="184px" height="244"onclick="getdata('Neutral',2);hide(3)">
+   <img id="bd4" src="./tof/sass/classpicture/Neutral/NK/Portraitcard_neutral_sorcerer.png" alt="" width="184px" height="244"onclick="getdata('Neutral',7);hide(4)">
+   <img id="bd5" src="./tof/sass/classpicture/Neutral/NK/image.png" alt="" width="184px" height="244" onclick="getdata('Neutral',12);hide(5)">
+   <img id="bd6" src="./tof/sass/classpicture/Neutral/Portraitcard_bluedragon_pretender.min.png" alt="" width="184px" height="244"onclick="getdata('Neutral',11);hide(6)">
+   <img id="bd7" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_Inquisitor.png" alt=""width="184px" height="244" onclick="getdata('Neutral',8);hide(7)">
+   <img id="bd8" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_alchemist.png" alt="" width="184px" height="244" onclick="getdata('Neutral',4);hide(8)">
+   <img id="bd9" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_fool.png" alt="" width="184px" height="244" onclick="getdata('Neutral',9);hide(9)">
+   <img id="bd10" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_mercenary.png" alt="" width="184px" height="244" onclick="getdata('Neutral',5);hide(10)">
+   <img id="bd11" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_scorned.png" alt="" width="184px" height="244" onclick="getdata('Neutral',10);hide(11)">
+   <img id="bd12" src="./tof/sass/classpicture/Neutral/Portraitcard_neutral_sellsword.png" alt="" width="184px" height="244" onclick="getdata('Neutral',3);hide(12)">
  </div>
-
+ <div id="description"></div>
 <div id="footer">© 2019 Made By Tzu-En ,who like this game.</div>
 
 </div>
