@@ -1,6 +1,7 @@
 function getdata(faction,index){
 
 
+
 fetch('./tof/'+faction+'.json')
 .then(function(response){
     return response.json();
@@ -19,6 +20,7 @@ const BDDATA= hh =>{
             aaaHTML=`<div>職業名稱:${classs.classname}</div><br/>`+
             `<div>職業類別:${classs.classtype}</div><br/>`+
             `<div>轉化後(前)職業(類別):${classs.convertclass}</div><br/>`+
+            `<div>勝利條件:${classs.victory}</div><br/>`+
             `<div class='posit'>`+
             `<div class='contain'><b>被動</b></div>`+
             `<div><b><img src="${classs.passive[0].p1img}">${classs.passive[0].p1}</b></div>`+
@@ -49,3 +51,11 @@ const BDDATA= hh =>{
 
 }
 
+function hide(num){
+    for(var i=1;i<17;i++){
+        if(i==num ){
+            continue
+        }
+     document.getElementById('bd'+i).style.display="none";
+    }
+}

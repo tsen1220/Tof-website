@@ -4,6 +4,7 @@
       "classname":"賢王(The Good King)",
       "classtype":"Special",
       "convertclass":"None",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"韌性",
@@ -50,6 +51,7 @@
       "classname":"騎士(Knight)",
       "classtype":"Killer",
       "convertclass":"私刑人Enforcer/祭靈師Invoker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"盔甲",
@@ -96,6 +98,7 @@
       "classname":"管家(Bulter)",
       "classtype":"Offensive",
       "convertclass":"侍僕Servant/祭靈師Invoker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"盡忠職守",
@@ -142,6 +145,7 @@
       "classname":"時空術士(Chronomancer)",
       "classtype":"Support",
       "convertclass":"時光掠奪者Timesnatcher/祭司Ritualist",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"None",
@@ -188,6 +192,7 @@
       "classname":"宮廷巫師(Court Wizard)",
       "classtype":"Support",
       "convertclass":"術士Sage/祭司Ritualist",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"None",
@@ -234,6 +239,7 @@
       "classname":"醉漢(Drunk)",
       "classtype":"Offensive",
       "convertclass":"酒鬼Alcoholic/祭靈師Invoker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"王族之血",
@@ -280,6 +286,7 @@
       "classname":"獵人(Hunter)",
       "classtype":"Killer",
       "convertclass":"盜獵者Poacher/祭靈師Invoker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"復仇",
@@ -326,6 +333,7 @@
       "classname":"女僕(Maid)",
       "classtype":"Investigative",
       "convertclass":"侍女Handmaiden/先知Seeker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"None",
@@ -372,6 +380,7 @@
       "classname":"傳心師(Mystic)",
       "classtype":"Social",
       "convertclass":"幻術師Illusionist/門徒Apostle",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"掌控心靈",
@@ -418,6 +427,7 @@
       "classname":"貴族(Noble)",
       "classtype":"Social",
       "convertclass":"權貴Aristocrat/門徒Apostle",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"王族之血",
@@ -464,6 +474,7 @@
       "classname":"密探(Observer)",
       "classtype":"Investigative",
       "convertclass":"守夜人Nightwatch/先知Seeker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"None",
@@ -510,6 +521,7 @@
       "classname":"聖騎士(Paladin) 僅出現在邪教場",
       "classtype":"Investigative",
       "convertclass":"先知Seeker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"None",
@@ -556,6 +568,7 @@
       "classname":"御醫(Physician)",
       "classtype":"Support",
       "convertclass":"魔藥師Herbalist/祭司Ritualist",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"療法研究",
@@ -602,6 +615,7 @@
       "classname":"王子(Prince)",
       "classtype":"Killer",
       "convertclass":"None",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"王族之血",
@@ -648,6 +662,7 @@
       "classname":"公主(Princess)",
       "classtype":"Investigative",
       "convertclass":"傲妃Duchess/先知Seeker",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"王族之血",
@@ -694,6 +709,7 @@
       "classname":"警長(Sheriff) 僅出現在黑玫瑰場",
       "classtype":"Investigative",
       "convertclass":"刑事官Marshal",
+      "victory":"擊敗所有壞人方及中立殺手。",
       "passive":[
          {
       "p1":"None",

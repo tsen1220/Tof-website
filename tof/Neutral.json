@@ -4,6 +4,7 @@
        "classname":"孤王(The Unseen King)",
        "classtype":"Special",
        "convertclass":"None",
+       "victory":"存活。",
        "passive":[
           {
        "p1":"韌性",
@@ -50,6 +51,7 @@
        "classname":"死神(Reaper)",
        "classtype":"Killer",
        "convertclass":"None",
+       "victory":"擊敗所有藍龍及壞人方。",
        "passive":[
           {
        "p1":"吸食靈魂",
@@ -96,6 +98,7 @@
        "classname":"傭兵(sellsword)",
        "classtype":"Offensive",
        "convertclass":"None",
+       "victory":"擊敗藍龍。",
        "passive":[
           {
        "p1":"締結契約",
@@ -142,6 +145,7 @@
        "classname":"煉金術士(Alchemist)",
        "classtype":"Support",
        "convertclass":"None",
+       "victory":"存活。",
        "passive":[
           {
        "p1":"凝固",
@@ -188,6 +192,7 @@
        "classname":"隨扈(Mercenary)",
        "classtype":"Support",
        "convertclass":"None",
+       "victory":"集滿六枚錢幣後勝利。",
        "passive":[
           {
        "p1":"渴望錢幣",
@@ -234,6 +239,7 @@
        "classname":"支配者(Possessor)",
        "classtype":"Killer",
        "convertclass":"None",
+       "victory":"擊敗所有藍龍及壞人方。",
        "passive":[
           {
        "p1":"黑盾",
@@ -280,6 +286,7 @@
        "classname":"施魔者(Sorcer)",
        "classtype":"Killer",
        "convertclass":"None",
+       "victory":"擊敗所有藍龍及壞人方。",
        "passive":[
           {
        "p1":"施魔護甲",
@@ -326,6 +333,7 @@
        "classname":"異端判官(inquisitor)",
        "classtype":"Investigative",
        "convertclass":"None",
+       "victory":"殺死三個異端。",
        "passive":[
           {
        "p1":"神聖祝福",
@@ -372,6 +380,7 @@
        "classname":"愚人(fool)",
        "classtype":"Social",
        "convertclass":"None",
+       "victory":"被處決。",
        "passive":[
           {
        "p1":"可憐蟲",
@@ -418,6 +427,7 @@
        "classname":"失魂人(Scorned)",
        "classtype":"Social",
        "convertclass":"None",
+       "victory":"活著看到兩個標記的人被處決。",
        "passive":[
           {
        "p1":"決心",
@@ -464,6 +474,7 @@
        "classname":"私生女(Eretender)",
        "classtype":"Special",
        "convertclass":"None",
+       "victory":"成為國王並活到最後。",
        "passive":[
           {
        "p1":"王族之血",
@@ -510,6 +521,7 @@
        "classname":"瘋王(The Psycho King) 初始無這個王，只有中立殺手被票選為王時這職業才會出現。",
        "classtype":"Special",
        "convertclass":"None",
+       "victory":"擊敗所有藍龍及壞人方。",
        "passive":[
           {
        "p1":"致命韌性",

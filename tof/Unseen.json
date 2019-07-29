@@ -4,6 +4,7 @@
        "classname":"暴君(The Unseen King)",
        "classtype":"Special",
        "convertclass":"None",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"韌性",
@@ -50,6 +51,7 @@
        "classname":"刺客(Assassin)",
        "classtype":"Killer",
        "convertclass":"當黑玫瑰沒刺客時，轉化順位第一的會變為刺客。",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"徒弟",
@@ -96,6 +98,7 @@
        "classname":"侍僕(Servant)",
        "classtype":"Offensive",
        "convertclass":"管家Bulter",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"盡忠職守",
@@ -142,6 +145,7 @@
        "classname":"時光掠奪者(Timesnatcher)",
        "classtype":"Support",
        "convertclass":"時空術士Chronomancer",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"時間逆流",
@@ -188,6 +192,7 @@
        "classname":"術士(Sage)",
        "classtype":"Support",
        "convertclass":"宮廷巫師Court Wizard",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -234,6 +239,7 @@
        "classname":"酒鬼(Alcoholic)",
        "classtype":"Offensive",
        "convertclass":"醉漢Drunk",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"王族之血",
@@ -280,6 +286,7 @@
        "classname":"盜獵者Poacher",
        "classtype":"Offensive",
        "convertclass":"獵人Hunter",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -326,6 +333,7 @@
        "classname":"侍女(Handmaiden)",
        "classtype":"Investigative",
        "convertclass":"女僕Maid",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -372,6 +380,7 @@
        "classname":"幻術師(Illusionist)",
        "classtype":"Social",
        "convertclass":"傳心師Mystic",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"掌控心靈",
@@ -418,6 +427,7 @@
        "classname":"權貴(Aristocrat)",
        "classtype":"Social",
        "convertclass":"貴族Noble",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"王族之血",
@@ -464,6 +474,7 @@
        "classname":"守夜人(Nightwatch)",
        "classtype":"Investigative",
        "convertclass":"密探Observer",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -510,6 +521,7 @@
        "classname":"主謀(Mastermind)",
        "classtype":"Investigative",
        "convertclass":"None",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"不容侵犯",
@@ -556,6 +568,7 @@
        "classname":"魔藥師(Herbalist)",
        "classtype":"Support",
        "convertclass":"御醫Physician",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"療法研究",
@@ -602,6 +615,7 @@
        "classname":"私刑人(Enforcer)",
        "classtype":"Offensive",
        "convertclass":"騎士Knight",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -648,6 +662,7 @@
        "classname":"傲妃(Duchess)公主(Princess)",
        "classtype":"Investigative",
        "convertclass":"公主Princess",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"王族之血",
@@ -694,6 +709,7 @@
        "classname":"刑事官(Marshal)",
        "classtype":"Investigative",
        "convertclass":"警長Sheriff",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",

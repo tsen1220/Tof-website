@@ -4,6 +4,7 @@
        "classname":"暴君(The Cult King)",
        "classtype":"Special",
        "convertclass":"None",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"韌性",
@@ -50,6 +51,7 @@
        "classname":"先知(Seeker)",
        "classtype":"Investigative",
        "convertclass":"Investigative",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -96,6 +98,7 @@
        "classname":"祭司(Ritualist)",
        "classtype":"Support",
        "convertclass":"Support",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"彌薩拉的意志",
@@ -142,6 +145,7 @@
        "classname":"教主(Cult Leader)",
        "classtype":"Special",
        "convertclass":"當邪教沒有教主時，會依順位由邪教徒繼承教主。",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -188,6 +192,7 @@
        "classname":"門徒(Apostle)",
        "classtype":"Social",
        "convertclass":"Social",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"None",
@@ -234,6 +239,7 @@
        "classname":"祭靈師(Invoker)",
        "classtype":"Offensive",
        "convertclass":"Killer/Offensive",
+       "victory":"擊敗所有藍龍及中立殺手。",
        "passive":[
           {
        "p1":"狂熱",
