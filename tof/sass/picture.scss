@@ -1,0 +1,36 @@
+body{
+    background-image:url('./background/5.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    text-align: left;
+    font-family: 'Noto Serif TC', serif;
+}
+
+#textcontainer{
+    width: 1520px;
+    height:calc(288*10);
+    background: #DCCF79;
+    border:2px solid #22E15A;
+    position: absolute;
+    top:154px;
+    left: 0px;
+    padding:0px;
+    margin:0px;
+    opacity: 1;
+    color:#824135;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#footer{
+    opacity: 0.85;
+    padding:0;
+    position: relative;
+    bottom:0;
+    right:0;
+    text-align: right
+}
+
