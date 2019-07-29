@@ -7,8 +7,8 @@ fetch('./tof/'+faction+'.json')
     return response.json();
 })
 .then(function(data){
-    let hh=data.class
-    console.log(hh)
+    let hh=data.class;
+    console.log(hh);
     BDDATA(hh);
   
 })
