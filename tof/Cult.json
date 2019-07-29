@@ -89,7 +89,7 @@
        "n2":"揭露",
        "n2description":"找出誰拜訪了目標，目標又拜訪了誰。",
        "n2times":"使用次數:2次",
-       "n2img":"./tof/sass/classpicture/CULT/seeker/n1.png"
+       "n2img":"./tof/sass/classpicture/CULT/seeker/n2.png"
        }
     ]
     
@@ -136,7 +136,7 @@
        "n2":"烈酒(party)",
        "n2description":"舉行派對，對指定你為目標的人全部佔據。",
        "n2times":"使用次數:2次",
-       "n2img":"./tof/sass/classpicture/CULT/ritualist/n1.png"
+       "n2img":"./tof/sass/classpicture/CULT/ritualist/n2.png"
        }
     ]
     
