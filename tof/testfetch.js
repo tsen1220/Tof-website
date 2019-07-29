@@ -67,3 +67,16 @@ function hide(num){
      document.getElementById("bd"+i).style.display="none";
     }
 }
+
+function show(){
+    for(var j=1;j<17;j++){
+    document.getElementById("bd"+j).style.width="184px";
+    document.getElementById("bd"+j).style.height="244px";
+    document.getElementById("bd"+j).style.display="inline";
+    }
+    var b=document.getElementById('description')
+    b.innerHTML=''
+ }
+
+
+

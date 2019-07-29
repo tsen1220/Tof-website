@@ -33,6 +33,7 @@ body {
   top: 0px;
   z-index: 3;
   opacity: 0;
+  cursor: pointer;
 }
 
 #title1 {
@@ -43,6 +44,7 @@ body {
   top: 60px;
   z-index: 3;
   opacity: 1;
+  cursor: pointer;
 }
 
 #show {
