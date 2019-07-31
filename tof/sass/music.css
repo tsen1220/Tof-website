@@ -22,6 +22,13 @@ body {
   margin: 0px;
   opacity: 0.9;
   color: #824135;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 
 #footer {

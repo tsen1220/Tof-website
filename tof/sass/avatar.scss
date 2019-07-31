@@ -10,7 +10,9 @@
     margin:0px;
     opacity: 0.9;
     color:#824135;
-   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 
@@ -28,4 +30,5 @@ body{
     background: url("./background/9.png");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Noto Serif TC', serif;
 }
