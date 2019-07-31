@@ -21,7 +21,7 @@ var pic=[
 
 
 window.onload= function(){
-    var h=`<h2>美術圖</h2>`
+    var h=`<h2 style="font-size:50px"><b>美術圖</b></h2>`
     var img=``
     var foot=`<div id="footer">© 2019 Made By Tzu-En ,who like this game. Images are from https://www.throneoflies.com/</div>`
     for(var i=0;i<18;i++){

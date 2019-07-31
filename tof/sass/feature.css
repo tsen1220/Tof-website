@@ -1,0 +1,76 @@
+body {
+  background-image: url("./background/7.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  font-family: 'Noto Serif TC', serif;
+}
+
+#textcontainer {
+  width: 1520px;
+  height: 3500px;
+  background: #DCCF79;
+  border: 2px solid #22E15A;
+  position: absolute;
+  top: 154px;
+  left: 0px;
+  padding: 0px;
+  margin: 0px;
+  opacity: 0.9;
+  color: #824135;
+}
+
+.size {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+#order {
+  font-size: 50px;
+  line-height: 40px;
+}
+
+#content {
+  font-size: 20px;
+}
+
+#fon {
+  font-size: 30px;
+  text-decoration: underline;
+  line-height: 50px;
+}
+
+#footer {
+  opacity: 0.85;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
+}
+
+#mm {
+  position: absolute;
+  right: 30%;
+  top: 20px;
+  opacity: 0;
+}
+
+#ss {
+  position: absolute;
+  right: 5%;
+  top: 50px;
+  opacity: 0;
+}
+
+#p {
+  position: absolute;
+  right: 10%;
+  top: 90px;
+  opacity: 0;
+}
+/*# sourceMappingURL=feature.css.map */

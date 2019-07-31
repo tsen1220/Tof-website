@@ -1,2 +1,2 @@
 import dropdown from "./dropdown"
-import inter from "./inter1"
+import avatar from "./avatar"
