@@ -3,7 +3,7 @@ const path = require("path");
 module.exports={
     entry:"./js/app.js",
     output:{
-        filename:"avatardrop.js",
+        filename:"classtypei.js",
         path : path.resolve(__dirname,'./dist')
     }
 }

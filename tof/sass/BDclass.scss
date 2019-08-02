@@ -16,7 +16,6 @@ body{
     width: 1520px;
     height: 900px;
     background: #DCCF79;
-    border:2px solid #22E15A;
     position: absolute;
     top:154px;
     left: 0px;
@@ -52,9 +51,12 @@ body{
 
 #show{
     opacity: 0;
-    position: relative;
-    top:20%;
-    left:0;
+    position: absolute;
+    top:150px;
+    left:100px;
+    margin:0px;
+    
+    
 }
 
 

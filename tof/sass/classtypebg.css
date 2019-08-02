@@ -15,7 +15,6 @@ body {
   width: 768px;
   height: 858px;
   background: #DCCF79;
-  border: 2px solid #22E15A;
   position: absolute;
   top: 20%;
   left: 25%;
@@ -61,7 +60,7 @@ ul {
   color: #824135;
 }
 
-.act {
+.acti {
   color: #000000;
   background: #82D10C;
   border-radius: 20px;

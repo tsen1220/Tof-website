@@ -1,2 +1,2 @@
 import dropdown from "./dropdown"
-import avatar from "./avatar"
+import urlhover from "./urlhover"

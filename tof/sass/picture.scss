@@ -12,7 +12,6 @@ body{
     width: 1520px;
     height:calc(288*10);
     background: #DCCF79;
-    border:2px solid #22E15A;
     position: absolute;
     top:154px;
     left: 0px;
@@ -34,3 +33,29 @@ body{
     text-align: right
 }
 
+.item{
+    margin: 0 20px;
+    transform: scale(0.8);
+    opacity:0.5;
+    transition: 0.5s ease-in;
+}
+
+.active .item{
+    transform: scale(1);
+    opacity:1;
+ 
+}
+
+.next{
+    position: absolute;
+    right:120px;
+    top:300px;
+    z-index:222
+}
+
+.pre{
+    position: absolute;
+    left:120px;
+    top:300px;
+    z-index:222
+}

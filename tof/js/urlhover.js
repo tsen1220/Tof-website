@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $('.urlhover').hover(
       function() {
-         $(this).addClass('act')
+         $(this).addClass('acti')
       },
       function() {
-         $(this).removeClass('act')
+         $(this).removeClass('acti')
       });
       
   

@@ -1,31 +1,53 @@
-var pic=[
-"./tof/sass/background/1.png",
-"./tof/sass/background/2.png",
-"./tof/sass/background/3.png",
-"./tof/sass/background/4.jpg",
-"./tof/sass/background/5.png",
-"./tof/sass/background/6.png",
-"./tof/sass/background/7.jpg",
-"./tof/sass/background/8.png",
-"./tof/sass/background/9.png",
-"./tof/sass/background/10.png",
-"./tof/sass/background/11.png",
-"./tof/sass/background/12.jpg",
-"./tof/sass/background/13.jpg",
-"./tof/sass/background/14.jpg",
-"./tof/sass/background/15.png",
-"./tof/sass/background/16.jpg",
-"./tof/sass/background/17.png",
-"./tof/sass/background/18.png",
-]
-
-
-window.onload= function(){
-    var h=`<h2 style="font-size:50px"><b>美術圖</b></h2>`
-    var img=``
-    var foot=`<div id="footer">© 2019 Made By Tzu-En ,who like this game. Images are from https://www.throneoflies.com/</div>`
-    for(var i=0;i<18;i++){
-        img+=`<img src="${pic[i]}" alt="" width="512px" height="288px" style="display:inline-block">`
+$('.owl-carousel').owlCarousel({
+    merge:true,
+    loop:true,
+    margin:100,
+    lazyLoad:true,
+    center:true,
+    dots:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    nav:false,
+    smartSpeed:500,
+        responsive:{
+            0:{
+        items:1,
+        stagePadding: 60
+    },
+    600:{
+        items:1,
+        stagePadding: 100
+    },
+    1000:{
+        items:1,
+        stagePadding: 200
+    },
+    1200:{
+        items:1,
+        stagePadding: 250
+    },
+    1400:{
+        items:1,
+        stagePadding: 300
+    },
+    1600:{
+        items:1,
+        stagePadding: 350
+    },
+    1800:{
+        items:1,
+        stagePadding: 400
     }
-    document.getElementById('textcontainer').innerHTML= h+img +foot
-}
+    }
+})
+
+
+$('.next').click(function(){
+    $('.owl-carousel').trigger('next.owl.carousel')
+})
+
+
+$('.pre').click(function(){
+    $('.owl-carousel').trigger('prev.owl.carousel')
+})

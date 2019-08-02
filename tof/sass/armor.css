@@ -1,5 +1,5 @@
 body {
-  background-image: url("./background/15.png");
+  background-image: url("./background/11.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,7 +14,6 @@ body {
   width: 1520px;
   height: calc(288*10);
   background: #DCCF79;
-  border: 2px solid #22E15A;
   position: absolute;
   top: 154px;
   left: 0px;

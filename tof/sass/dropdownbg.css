@@ -68,7 +68,9 @@
   color: #E0AEAE;
 }
 
-.active {
+.act {
   background: #2424A7;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
 }
 /*# sourceMappingURL=dropdownbg.css.map */

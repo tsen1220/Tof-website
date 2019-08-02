@@ -14,7 +14,6 @@ body {
   width: 1520px;
   height: calc(288*10);
   background: #DCCF79;
-  border: 2px solid #22E15A;
   position: absolute;
   top: 154px;
   left: 0px;
@@ -38,5 +37,34 @@ body {
   bottom: 0;
   right: 0;
   text-align: right;
+}
+
+.item {
+  margin: 0 20px;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0.5;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+.active .item {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+
+.next {
+  position: absolute;
+  right: 120px;
+  top: 300px;
+  z-index: 222;
+}
+
+.pre {
+  position: absolute;
+  left: 120px;
+  top: 300px;
+  z-index: 222;
 }
 /*# sourceMappingURL=picture.css.map */

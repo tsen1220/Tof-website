@@ -12,7 +12,6 @@ body{
     width: 1520px;
     height: 3500px;
     background: #DCCF79;
-    border:2px solid #22E15A;
     position: absolute;
     top:154px;
     left: 0px;
@@ -32,10 +31,13 @@ body{
 #order{
     font-size:50px;
     line-height: 40px;
+    left:60px;
 }
 
 #content{
     font-size: 20px;
+    position: relative;
+    left:60px;
 }
 
 #fon{
@@ -72,6 +74,6 @@ body{
 #p{
     position: absolute;
     right:10%;
-    top:90px;
+    top:200px;
     opacity: 0;
 }

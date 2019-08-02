@@ -3,11 +3,11 @@ $(document).ready(function(){
     $('#dropdown li').hover(
       function() {
          $(this).find('ul').slideDown('fast');
-         $(this).find('a:first').addClass('active')
+         $(this).find('a:first').addClass('act')
       },
       function() {
          $(this).find('#submenu').fadeOut('fast');
-         $(this).find('a').removeClass('active')
+         $(this).find('a').removeClass('act')
       });
       
   
