@@ -16,7 +16,7 @@ body {
   background: #DCCF79;
   position: absolute;
   top: 154px;
-  left: 0px;
+  left: 3.5px;
   padding: 0px;
   margin: 0px;
   opacity: 0.9;
@@ -37,7 +37,7 @@ body {
 #content {
   font-size: 20px;
   position: relative;
-  left: 60px;
+  left: 10px;
 }
 
 #fon {
