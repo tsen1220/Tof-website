@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC&display=swap");
 #container {
-  width: 1520px;
+  width: 100%;
   height: 80px;
-  background-color: #956B57;
+  background-color: #956b57;
   opacity: 0.8;
   padding: 0;
   margin: 0;
@@ -16,7 +16,7 @@
 
 #dropdown {
   text-align: center;
-  font-family: 'Noto Serif TC', serif;
+  font-family: "Noto Serif TC", serif;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -24,7 +24,7 @@
   position: absolute;
   top: 0px;
   left: 400px;
-  color: #E0AEAE;
+  color: #e0aeae;
   border-radius: 20px;
 }
 
@@ -43,7 +43,7 @@
   border-right: 1px solid rgba(0, 0, 0, 0.45);
   border-left: 1px solid rgba(0, 0, 0, 0.45);
   cursor: pointer;
-  background: #956B57;
+  background: #956b57;
   width: 160px;
   border-radius: 20px;
 }
@@ -65,11 +65,11 @@
   width: 160px;
   text-decoration: none;
   border-radius: 20px;
-  color: #E0AEAE;
+  color: #e0aeae;
 }
 
 .act {
-  background: #2424A7;
+  background: #2424a7;
   -webkit-transition: 0.5s ease-out;
   transition: 0.5s ease-out;
 }

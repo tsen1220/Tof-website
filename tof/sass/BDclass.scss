@@ -1,71 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC:700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif+TC:700&display=swap");
 
-
-body{
-    background-image:url('./background/2.png');
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    display: flex;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
-};
-
-
-#textcontainer{
-    width: 1520px;
-    height: 900px;
-    background: #DCCF79;
-    position: absolute;
-    top:154px;
-    left: 3.5px;
-    padding:0px;
-    margin:0px;
-    opacity: 0.9;
-    color:#824135;
-   
+body {
+  background-image: url("./background/2.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: left;
+  font-family: "Noto Serif TC", serif;
 }
 
-#title{
-    font-size: 70px;
-    text-align: left;
-    position: absolute;
-    left:0px;
-    top: 0px;
-    z-index: 3;
-    opacity:0;
-    cursor: pointer;
-      }
-    
-      #title1{
-        font-size: 70px;
-        text-align: left;
-        position: absolute;
-        left:200px;
-        top: 60px;
-        z-index: 3;
-        opacity:1;
-        cursor: pointer;
-          }
-
-
-#show{
-    opacity: 0;
-    position: absolute;
-    top:150px;
-    left:100px;
-    margin:0px;
-    
-    
+#textcontainer {
+  width: 100%;
+  height: 900px;
+  background: #dccf79;
+  position: absolute;
+  top: 154px;
+  left: 3.5px;
+  padding: 0px;
+  margin: 0px;
+  opacity: 0.9;
+  color: #824135;
 }
 
-
-#footer{
-    opacity: 0.85;
-    padding:0;
-    position: absolute;
-    bottom:0;
-    right:0;
-    
+#title {
+  font-size: 70px;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  opacity: 0;
+  cursor: pointer;
 }
 
+#title1 {
+  font-size: 70px;
+  text-align: left;
+  position: absolute;
+  left: 200px;
+  top: 60px;
+  z-index: 3;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#show {
+  opacity: 0;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  margin: 0px;
+}
+
+#footer {
+  opacity: 0.85;
+  padding: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

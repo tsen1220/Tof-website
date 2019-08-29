@@ -1,61 +1,60 @@
-body{
-    background-image:url('./background/5.png');
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    display: flex;
-    text-align: left;
-    font-family: 'Noto Serif TC', serif;
+body {
+  background-image: url("./background/5.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  text-align: left;
+  font-family: "Noto Serif TC", serif;
 }
 
-#textcontainer{
-    width: 1520px;
-    height:calc(288*10);
-    background: #DCCF79;
-    position: absolute;
-    top:154px;
-    left: 3.5px;
-    padding:0px;
-    margin:0px;
-    opacity: 1;
-    color:#824135;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+#textcontainer {
+  width: 100%;
+  height: calc(288 * 10);
+  background: #dccf79;
+  position: absolute;
+  top: 154px;
+  left: 3.5px;
+  padding: 0px;
+  margin: 0px;
+  opacity: 1;
+  color: #824135;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-#footer{
-    opacity: 0.85;
-    padding:0;
-    position: relative;
-    bottom:0;
-    right:0;
-    text-align: right
+#footer {
+  opacity: 0.85;
+  padding: 0;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  text-align: right;
 }
 
-.item{
-    margin: 0 20px;
-    transform: scale(0.8);
-    opacity:0.5;
-    transition: 0.5s ease-in;
+.item {
+  margin: 0 20px;
+  transform: scale(0.8);
+  opacity: 0.5;
+  transition: 0.5s ease-in;
 }
 
-.active .item{
-    transform: scale(1);
-    opacity:1;
- 
+.active .item {
+  transform: scale(1);
+  opacity: 1;
 }
 
-.next{
-    position: absolute;
-    right:120px;
-    top:300px;
-    z-index:222
+.next {
+  position: absolute;
+  right: 120px;
+  top: 300px;
+  z-index: 222;
 }
 
-.pre{
-    position: absolute;
-    left:120px;
-    top:300px;
-    z-index:222
+.pre {
+  position: absolute;
+  left: 120px;
+  top: 300px;
+  z-index: 222;
 }

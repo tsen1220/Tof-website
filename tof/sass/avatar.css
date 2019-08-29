@@ -7,13 +7,13 @@ body {
   display: -ms-flexbox;
   display: flex;
   text-align: left;
-  font-family: 'Noto Serif TC', serif;
+  font-family: "Noto Serif TC", serif;
 }
 
 #textcontainer {
-  width: 1520px;
+  width: 100%;
   height: 600px;
-  background: #DCCF79;
+  background: #dccf79;
   position: absolute;
   top: 154px;
   left: 3.5px;
