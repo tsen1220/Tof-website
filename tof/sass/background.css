@@ -7,4 +7,28 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.wrapper {
+  background: #dccf79;
+  width: 1000px;
+  height: 550px;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.wrapper p {
+  font-size: 30px;
+  font-family: DFKai-sb;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  text-indent: 2em;
+  position: relative;
+  top: 0px;
+}
+
+.wrapper img {
+  width: 800px;
+  height: 420px;
+}
 /*# sourceMappingURL=background.css.map */

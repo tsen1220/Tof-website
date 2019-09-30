@@ -1,9 +1,30 @@
-body{
-    background-image:url('./background/6.png');
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    display: flex;
-    
-};
+body {
+  background-image: url("./background/6.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+.wrapper {
+  background: #dccf79;
+  width: 1000px;
+  height: 550px;
+  position: absolute;
+  top: 200px;
+  left: 300px;
 
+  & p {
+    font-size: 30px;
+    font-family: DFKai-sb;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    text-indent: 2em;
+    position: relative;
+    top: 0px;
+  }
+
+  & img {
+    width: 800px;
+    height: 420px;
+  }
+}
