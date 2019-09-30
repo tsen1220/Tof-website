@@ -1,88 +1,205 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="UTF-8">
-<head>
-<link rel="stylesheet" href="./tof/sass/BDclass.css">
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
-<script src="./tof/dist/dropdown.js"></script>
-<link rel="stylesheet" href="./tof/sass/dropdownbg.css" type="text/css">
-<script src="./tof/testfetch.js"></script>
-<link rel="stylesheet" href="./tof/sass/cardtranslate.css" type="text/css">
-</head>
+  <meta charset="UTF-8" />
+  <head>
+    <title>謊言王座介紹網站</title>
+    <link rel="stylesheet" href="./tof/sass/BDclass.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script src="./tof/dist/dropdown.js"></script>
+    <link rel="stylesheet" href="./tof/sass/dropdownbg.css" type="text/css" />
+    <script src="./tof/testfetch.js"></script>
+    <link
+      rel="stylesheet"
+      href="./tof/sass/cardtranslate.css"
+      type="text/css"
+    />
+  </head>
 
-
-<body>
+  <body>
     <div id="container">
-          <a href="./throne.html">  <img   src="./tof/TITLE/throneoflies_logo_light_new.png" alt=""></a>
-   <ul id="dropdown">
-     <li><a href="./throne.html">HOME</a></li>
-     <li><a>遊戲介紹</a>
-     <ul id="submenu">
-         <li><a href="./feature.html">遊戲特色</a></li>
-         <li><a href="./interface.html">介面說明</a></li>
-     </ul>
-    
-    </li>
-     <li><a  href="./classintroduction.html">職業介紹</a>
-        <ul id ="submenu">
+      <a href="./throne.html">
+        <img src="./tof/TITLE/throneoflies_logo_light_new.png" alt=""
+      /></a>
+      <ul id="dropdown">
+        <li><a href="./throne.html">HOME</a></li>
+        <li>
+          <a>遊戲介紹</a>
+          <ul id="submenu">
+            <li><a href="./feature.html">遊戲特色</a></li>
+            <li><a href="./interface.html">介面說明</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="./classintroduction.html">職業介紹</a>
+          <ul id="submenu">
             <li><a href="./BD.html">藍龍</a></li>
             <li><a href="./Unseen.html">黑玫瑰</a></li>
             <li><a href="./Cult.html">邪教</a></li>
             <li><a href="./Neutral.html">中立</a></li>
-        </ul>
+          </ul>
+        </li>
+        <li>
+          <a>角色客製</a>
+          <ul id="submenu">
+            <li><a href="./weapon.html">武器</a></li>
+            <li><a href="./armor.html">盔甲</a></li>
+            <li><a href="./emote.html">表情</a></li>
+            <li><a href="./avatar.html">頭像</a></li>
+            <li><a href="./title.html">爵位</a></li>
+          </ul>
+        </li>
+        <li>
+          <a>畫廊</a>
+          <ul id="submenu">
+            <li><a href="./music.html">音樂</a></li>
+            <li><a href="./picture.html">美術</a></li>
+            <li><a href="./video.html">影像</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
-     </li>
-     <li><a>角色客製</a>
-      <ul id ="submenu">
-        <li><a href="./weapon.html">武器</a></li>
-        <li><a href="./armor.html">盔甲</a></li>
-        <li><a href="./emote.html">表情</a></li>
-        <li><a href="./avatar.html">頭像</a></li>
-        <li><a href="./title.html">爵位</a></li>
-    </ul>
-    </li>
-     <li><a>畫廊</a>
-      <ul id="submenu">
-          <li><a href="./music.html">音樂</a></li>
-          <li><a href="./picture.html">美術</a></li>
-          <li><a href="./video.html">影像</a></li>
-  </ul>
-    </li>
-   </ul>
-
-
-
-</div>
-
-<div id='textcontainer'>
-       
-  <div id="title" onclick="show()"><img src="./tof/sass/classpicture/Unseen.png">黑玫瑰職業</div>
- <div id="show">
-   <img id="bd1"  src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_unseenking.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',1);hide(1)">
-   <img id="bd2" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_enforcer.png" alt=""width="184px" height="244px" onclick="getdata('Unseen',14);hide(2)">
-   <img id="bd3" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_handmaiden.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',8);hide(3)">
-   <img id="bd4" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_aristocrat.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',10);hide(4)">
-   <img id="bd5" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_nightwatch.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',11);hide(5)">
-   <img id="bd6" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_assassin.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',2);hide(6)">
-   <img id="bd7" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_herbalist.png" alt=""width="184px" height="244px" onclick="getdata('Unseen',13);hide(7)">
-   <img id="bd8" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_mastermind.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',12);hide(8)">
-   <img id="bd9" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_duchess.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',15);hide(9)">
-   <img id="bd10" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_illusionist.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',9);hide(10)">
-   <img id="bd11" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_marshal.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',16);hide(11)">
-   <img id="bd12" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_poacher.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',7);hide(12)">
-   <img id="bd13" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_timesnatcher.min.png" alt="" width="184px" height="244px" onclick="getdata('Unseen',5);hide(13)">
-   <img id="bd14" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_servant.png" alt=""width="184px" height="244px" onclick="getdata('Unseen',3);hide(14)">
-   <img id="bd15" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_alcoholic.png" alt=""width="184px" height="244px" onclick="getdata('Unseen',6);hide(15)">
-   <img id="bd16" src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_sage.png" alt="" width="184px" height="244px"onclick="getdata('Unseen',4);hide(16)">
- </div>
- <div id="description"></div>
-<div id="footer">© 2019 Made By Tzu-En ,who like this game. Images are from https://tol.fandom.com/wiki/</div>
-
-</div>
-<script src="./tof/dist/bdanime.js"></script>
-
-
-</body>
-
+    <div id="textcontainer">
+      <div id="title" onclick="show()">
+        <img src="./tof/sass/classpicture/Unseen.png" />黑玫瑰職業
+      </div>
+      <div id="show">
+        <img
+          id="bd1"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_unseenking.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',1);hide(1)"
+        />
+        <img
+          id="bd2"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_enforcer.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',14);hide(2)"
+        />
+        <img
+          id="bd3"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_handmaiden.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',8);hide(3)"
+        />
+        <img
+          id="bd4"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_aristocrat.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',10);hide(4)"
+        />
+        <img
+          id="bd5"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_nightwatch.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',11);hide(5)"
+        />
+        <img
+          id="bd6"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_assassin.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',2);hide(6)"
+        />
+        <img
+          id="bd7"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_herbalist.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',13);hide(7)"
+        />
+        <img
+          id="bd8"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_mastermind.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',12);hide(8)"
+        />
+        <img
+          id="bd9"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_duchess.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',15);hide(9)"
+        />
+        <img
+          id="bd10"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_illusionist.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',9);hide(10)"
+        />
+        <img
+          id="bd11"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_marshal.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',16);hide(11)"
+        />
+        <img
+          id="bd12"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_poacher.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',7);hide(12)"
+        />
+        <img
+          id="bd13"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_timesnatcher.min.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',5);hide(13)"
+        />
+        <img
+          id="bd14"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_servant.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',3);hide(14)"
+        />
+        <img
+          id="bd15"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_alcoholic.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',6);hide(15)"
+        />
+        <img
+          id="bd16"
+          src="./tof/sass/classpicture/UNSEEN/Portraitcard_unseen_sage.png"
+          alt=""
+          width="184px"
+          height="244px"
+          onclick="getdata('Unseen',4);hide(16)"
+        />
+      </div>
+      <div id="description"></div>
+      <div id="footer">
+        © 2019 Made By Tzu-En ,who like this game. Images are from
+        https://tol.fandom.com/wiki/
+      </div>
+    </div>
+    <script src="./tof/dist/bdanime.js"></script>
+  </body>
 </html>
