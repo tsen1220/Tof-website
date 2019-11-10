@@ -1,11 +1,13 @@
 # 謊言王座繁中介紹網站
 
 這是將遊戲相關內容翻譯為繁體中文，藉此希望推廣此遊戲給中文社群。
-此為靜態網頁的設計，有動畫有用到jQuery、anime.js等，搭配Sass/Scss處理樣式。
-
-如果你喜歡，請給我一顆星，我會很感謝你。 If you like this, please give me a star. Thank you!!
+此為靜態網頁的設計，有動畫有用到 jQuery、anime.js 等，搭配 Sass/Scss 處理樣式。
 
 This is in order to translate the game-related content into Traditional Chinese, in the hope of promoting this game to the Chinese community.
+
+如果你喜歡，請給我一顆星，我會很感謝你。
+
+If you like this, please give me a star. Thank you!!
 
 # 首頁(Home)
 
